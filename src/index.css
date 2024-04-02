@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.bg1{
+  height: 700px;
+  width: 100%;
+  background-image: url('../public/images/bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/* .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(109, 107, 107, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a:hover {background-color: #ddd;}
+.dropdown-menu a:hover {color: #3b7012;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+
+
+
+
+.dropdown-menu li{
+ position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+.navcolor1{
+ color:rgb(6, 71, 6);
+}
+
+.navcolor:hover{
+  color: #56972a;
+}
+
+
+.font-primary{
+  
+ 
+  color:rgb(6, 71, 6);
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+ font-size: 80px;
+}
+
+
+.arrow-right{
+  /* color: 'rgba(82, 40, 8, 0.724)'  */
+  color: rgba(55, 27, 8, 0.724);
+ transition: all 0.3s ;
+}
+.arrow-right:hover{
+  transform: scaleX(1.3);
+}
+
+.featured-product{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.featuredcard{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: all 1s;
+}
+.featuredcard:hover{
+  transform: scale(1.1);
+
+
+}
+.background{
+  /* height: 600px;
+  width: 100%;
+  background-image: url('../public/images/bg-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+
+  height: 700px;
+  width: 100%;
+  background-image: url('../public/images/bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section1{
+
+ height:1000px;
+width: auto;
+  background-image: url('../public/images/bg-2.jpg');
+  background-repeat: no-repeat;
+ 
+  /* background-position: left top;
+  background-position-x: left;
+  background-position-y: top; */
+  background-size:contain;
+
+  margin: -3.2%;
+ 
+}
+.hotdeal{
+  color:rgb(6, 71, 6);
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+ font-size: 60px;
+ margin-top:20px;
+}
+.choose{
+  color:rgb(6, 71, 6);
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+  font-size: 50px;
+}
+.feature{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.testonimal{
+  /* height: 800px;
+  width: 100%;
+  background-image: url('../public/images/bg-3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%; */
+
+
+  background: url(../public/images/bg-3.jpg) no-repeat;
+	position: relative;
+  right:-30px;
+	/* margin: -10%; */
+	/* padding: 0; */
+	
+	height: 600px;
+	background-size:  100% 100%;
+}
+.testimonial-card{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.testimonial-card h1{
+  color:rgb(6, 71, 6);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.OrganicBlogCmpnt .card-title :hover{
+    color:rgb(8, 103, 8)!important;
+}
+
+.slider-container{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.footer_home{
+  background-color: rgb(188,184,138);
+}
+.coloum1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.coloum1 h4{
+  color:rgb(6, 71, 6);
+}
+.coloum1 h4:hover{
+  color:rgb(8, 103, 8)!important;
+}
+.dropdown-menu{
+  right:0;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden!important;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+.dropdown-menu h6{
+  font-size: 13px;
+  font-weight: normal;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.card-content{
+
+  justify-content: space-around;
+}
+
+
+
+
+
+/* ************************************* */
+/* App.css */
+
+ /* body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+
+/* * ******************************************* * */
+/* 
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -220px;
+    /* Initially, set the sidebar to be hidden on the right  */
+  /* width: 220px;
+  background-color: #111;
+  transition: right 0.5s;
+
+}
+
+ .sidebar.expanded {
+  right: 0;
+ 
+} 
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}  */ */
+
+.copyright{
+  color: #3b7012!important;
+  
+}
+.testonomial_bg{
+  height: 600px;
+  background-image:url("../public/images/bg-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card1{
+  background-color: white;
+
+}
+.heading{
+  color: #3b7012!important;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name{
+  color:darkgoldenrod;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.list h5{
+ 
+    white-space: pre;
+  
+}.list h5 a{
+text-decoration: none;
+color: #818181;
+}

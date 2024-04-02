@@ -1,0 +1,80 @@
+{
+  "OrganicBlogComp": [
+    {
+      "id": 1,
+      "img":"images/blog-post-9-400x300.jpg",
+      "date":"April 30,2019",
+      "name":"Bobbie Ryan",
+      "title":"Keep the Green Out of the Potato"
+      
+    },
+    {
+      "id": 2,
+      "img":"images/blog-post-8-400x300.jpg",
+      "date":"April 3,2019",
+      "name":"Joy Ryan",
+      "title":"Healthiest beans and Legumes"
+    },
+    {
+      "id": 3,
+      "img":"images/blog-post-7-400x300.jpg",
+      "date":"April 10,2019",
+      "name":"Bobbie Ryan",
+      "title":"Simple and Delicious  Keto Salad"
+      
+    },
+    {
+      "id": 4,
+      "img":"images/blog-post-6-400x300.jpg",
+      "date":"April 3,2019",
+      "name":"John  Doe",
+      "title":"Friendly breakfast ideas"
+    },
+    {
+      "id": 5,
+      "img":"images/blog-post-5-400x300.jpg",
+      "date":"April 3,2019",
+      "name":"Tailer  Brice",
+      "title":"Drinking water in the morning "
+    },
+    {
+      "id": 6,
+      "img":"images/blog-post-4-400x300.jpg",
+      "date":"April 3,2019",
+      "name":"Donald Trump",
+      "title":"Healthiest vegetables on the earth"
+     
+    },
+    {
+      "id": 7,
+      "img":"images/blog-post-3-400x300.jpg",
+      "date":"April 3,2019",
+      "name":"Joy Ryan",
+      "title":"A Healthier cooking  oil"
+    },
+    {
+      "id": 8,
+      "img":"images/blog-post-2-400x300.jpg",
+      "date":"April 3,2019",
+      "name":"Richel",
+      "title":"Work friendly  Lunch Recipes "
+    },
+    {
+      "id": 9,
+      "img":"images/blog-post-1-400x300.jpg",
+      "date":"April 3,2019",
+      "name":"Selena Gomes ",
+      "title":"This Doctor is also a Farmer"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
