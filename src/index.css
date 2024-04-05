@@ -135,17 +135,28 @@ code {
 }
 .section1{
 
- height:1000px;
-width: auto;
+ /* height:1000px; */
+/* width: auto; */
   background-image: url('../public/images/bg-2.jpg');
+  position: relative;
+  right:-30px;
   background-repeat: no-repeat;
  
-  /* background-position: left top;
-  background-position-x: left;
-  background-position-y: top; */
+ 
   background-size:contain;
+  /* height: 600px; */
+	background-size:  100% 100%;
 
-  margin: -3.2%;
+  /* margin: -3.2%; */
+
+/* ************************ */
+  /* background: url(../public/images/bg-3.jpg) no-repeat;
+	position: relative;
+  right:-30px;
+
+	
+	height: 600px;
+	background-size:  100% 100%; */
  
 }
 .hotdeal{
@@ -154,7 +165,7 @@ width: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
  font-size: 60px;
- margin-top:20px;
+ /* margin-top:20px; */
 }
 .choose{
   color:rgb(6, 71, 6);

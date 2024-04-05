@@ -393,21 +393,25 @@ export default class Home extends Component {
 
 
         <div className='section section1  mt-5 pt-5'>
-          <div className='container'>
+          <div className='container-fluid py-5'>
             <div className='col-md-12 '>
               <div className='row'>
-                <div className='col-md-6 col-lg-6 col-sm-12 py-5 hotdeal'>
+                <div className='col-md-12 col-lg-6 col-sm-12 py-5 hotdeal '>
                   <p className='pt-5 ml-5 '>Hot deals of the week</p>
                   <p className='fs-4 text-secondary'>Get bestest offer on our best products and save up to 40%<br />
                     so what are you waitig for...
                     <br />just go for it.
                   </p>
                 </div>
-                <div className='col-md-6 col-lg-6 col-sm-12 py-5 '>
-                  <div className='carousel ' style={{ marginTop: '80px' }}>
+                <div className='col-md-12 col-lg-6 col-sm-12 pb-5 ps-5  '>
+                 <cenetr>
+                 <div className='carousel '>
                     <MyCarousel />
 
                   </div>
+
+                 </cenetr>
+                  
 
 
                 </div>
@@ -415,22 +419,26 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className='section section1' style={{ marginTop: '-800px' }}></div>
+        {/* <div className='section section1 ' style={{ marginTop: '-800px' }}>
+        
+        </div> */}
 
 
 
-
-
+<br/><br/><br/><br/><br/><br/>
         <div className='container'>
           <div className='row'>
             <div className='col-md-12 col-lg-12  col-sm-12'>
               <div className='row '>
-                <h1 className='text-center choose mb-5' style={{ marginTop: '-320px' }}>Why choose us?</h1>
-                <h4 className='text-center text-secondary' style={{ marginTop: '-250px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h4>
+                <h1 className='text-center choose mb-5' >Why choose us?</h1>   
+                 
+                <h4 className='text-center text-secondary'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h4>
+            
               </div>
             </div>
 
-            <div className='col-md-12 col-lg-12 col-sm-12 ' style={{ marginTop: '-150px' }}>
+            <div className='col-md-12 col-lg-12 col-sm-12 ' >
+           
               <div className='row'>
 
 
@@ -444,7 +452,7 @@ export default class Home extends Component {
                       <>
 
 
-                        <div className="col-md-6 col-sm-6 col-xs-6 col-lg-6 mx-auto my-3 " key={index}>
+                        <div className="col-md-12 col-sm-12 col-xs-12 col-lg-6 mx-auto my-3 " key={index}>
                           <div className='row'>
 
                             <WhyChooseUs
@@ -480,7 +488,7 @@ export default class Home extends Component {
 
 
             <div className='row'>
-                <div className='col-md-6 col-lg-6 col-sm-12 p-5'>
+                <div className='col-md-12 col-lg-6 col-sm-12 p-5'>
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators py-5">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active bg-dark" aria-current="true" aria-label="Slide 1" style={{color:'black'}}></button>
