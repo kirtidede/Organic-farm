@@ -27,18 +27,7 @@ code {
 }
 
 
-/* .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-} */
 
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-} */
 
 
 
@@ -98,7 +87,7 @@ code {
 
 
 .arrow-right{
-  /* color: 'rgba(82, 40, 8, 0.724)'  */
+  
   color: rgba(55, 27, 8, 0.724);
  transition: all 0.3s ;
 }
@@ -120,11 +109,7 @@ code {
 
 }
 .background{
-  /* height: 600px;
-  width: 100%;
-  background-image: url('../public/images/bg-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat; */
+
 
 
   height: 700px;
@@ -135,8 +120,7 @@ code {
 }
 .section1{
 
- /* height:1000px; */
-/* width: auto; */
+
   background-image: url('../public/images/bg-2.jpg');
   position: relative;
   right:-30px;
@@ -144,20 +128,10 @@ code {
  
  
   background-size:contain;
-  /* height: 600px; */
+
 	background-size:  100% 100%;
 
-  /* margin: -3.2%; */
-
-/* ************************ */
-  /* background: url(../public/images/bg-3.jpg) no-repeat;
-	position: relative;
-  right:-30px;
-
-	
-	height: 600px;
-	background-size:  100% 100%; */
- 
+  
 }
 .hotdeal{
   color:rgb(6, 71, 6);
@@ -165,7 +139,7 @@ code {
   font-family: Georgia, 'Times New Roman', Times, serif;
 
  font-size: 60px;
- /* margin-top:20px; */
+ 
 }
 .choose{
   color:rgb(6, 71, 6);
@@ -178,18 +152,13 @@ code {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .testonimal{
-  /* height: 800px;
-  width: 100%;
-  background-image: url('../public/images/bg-3.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%; */
+
 
 
   background: url(../public/images/bg-3.jpg) no-repeat;
 	position: relative;
   right:-30px;
-	/* margin: -10%; */
-	/* padding: 0; */
+	
 	
 	height: 600px;
 	background-size:  100% 100%;
@@ -242,7 +211,6 @@ code {
   padding-top: 20px;
 }
 
-/* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -257,7 +225,7 @@ code {
   outline: none;
 }
 
-/* On mouse-over */
+
 .sidenav a:hover, .dropdown-btn:hover {
   color: #f1f1f1;
 }
@@ -274,97 +242,6 @@ code {
 
   justify-content: space-around;
 }
-
-
-
-
-
-/* ************************************* */
-/* App.css */
-
- /* body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar.open {
-  width: 250px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-
-/* * ******************************************* * */
-/* 
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: -220px;
-    /* Initially, set the sidebar to be hidden on the right  */
-  /* width: 220px;
-  background-color: #111;
-  transition: right 0.5s;
-
-}
-
- .sidebar.expanded {
-  right: 0;
- 
-} 
-.toggle-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 999;
-}  */ */
 
 .copyright{
   color: #3b7012!important;
