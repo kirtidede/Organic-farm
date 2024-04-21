@@ -50,7 +50,7 @@ function OrganicBlogComponent()
        
                     <>
 
-<Slider {...settings} className='col-md-12 col-lg-12 col-sm-12 px-5  ' style={{justifycontent:'space-around'}} >
+<Slider {...settings} className='col-md-12 col-lg-12 col-sm-12 px-5  py-5' style={{justifycontent:'space-around'}} >
 
 {
                                     data1.map((val) => {

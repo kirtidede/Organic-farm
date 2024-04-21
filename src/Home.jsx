@@ -16,6 +16,7 @@ import OrganicBlogComponent from './OrganicBlogComponet';
 import Email from './email';
 import Footer from './Footer';
 import AllProducts from './AllProducts';
+import Search from './search';
 
 
 
@@ -29,7 +30,7 @@ export default class Home extends Component {
    
     
     
-
+  
 
     setting = {
       dots: true,
@@ -225,7 +226,7 @@ export default class Home extends Component {
             {/* <div className='bg1'>Home</div> */}
 
 
-            <span className=' mx-2 fs-5' style={{ color: 'rgba(82, 40, 8, 0.724)' }}>shop now <i class="fa-solid fa-arrow-right arrow-right mx-2"></i></span>
+            <span className=' mx-2 fs-5' ><button className='btn'> <a href='./Shop' style={{textDecoration:'none',color: 'rgba(82, 40, 8, 0.724)'}}>shop now <i class="fa-solid fa-arrow-right arrow-right mx-2"></i></a></button></span>
 
           </div>
         </div>
@@ -360,7 +361,7 @@ export default class Home extends Component {
                     <>
 
 
-                      <div className="col-md-6 col-sm-6 col-xs-6 col-lg-3 mx-auto my-3 " key={index}>
+                      <div className="col-md-6 col-sm-6 col-xs-6 col-lg-4 mx-auto my-3 " key={index}>
                         <div className='row'>
 
                           <FeaturedProduct
@@ -488,7 +489,7 @@ export default class Home extends Component {
 
 
             <div className='row'>
-                <div className='col-md-12 col-lg-6 col-sm-12 p-5'>
+                <div className='col-md-12 col-lg-6 col-sm-12  p-5'>
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators py-5">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active bg-dark" aria-current="true" aria-label="Slide 1" style={{color:'black'}}></button>
@@ -503,7 +504,7 @@ export default class Home extends Component {
     <Testimonials/>
       
     </div>
-    <div class="carousel-item py-3" data-bs-interval="500">
+    <div class="carousel-item py-3 mb-5" data-bs-interval="500">
     <Testimonials/>
     </div>
   </div>
@@ -518,17 +519,13 @@ export default class Home extends Component {
 
 
 
-       {/* <div className='container'>
-
-        <SimpleSlider/>
-
-       </div> */}
+     
 
 
 <br/><br/><br/><br/>
 
-       <div className="slider-container">
-        <div className='co-md-12 col-lg-12 col-sm-12'>
+       <div className="slider-container py-5">
+        <div className='co-md-12 col-lg-12 col-sm-12 col-xl-12'>
           <div className='row'>
           <h1 className='text-center ' style={{color:'rgb(6, 71, 6)'}}> Organic Blog </h1>
           <h4 className='text-center text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nesciunt?</h4>
@@ -542,11 +539,15 @@ export default class Home extends Component {
      
       
       
-<div className='col-md-12 col-lg-12 col-sm-12 mt-5'>
+<div className='col-md-12 col-lg-12 col-sm-12  mt-5'>
 
 
 <OrganicBlogComponent />
 </div>
+
+
+
+
 
 
 
@@ -563,6 +564,10 @@ export default class Home extends Component {
     <br/><br/><br/><br/><br/><br/>
 
   
+   
+
+
+
     <Footer/>
       </>
     )

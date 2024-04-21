@@ -1,8 +1,22 @@
 import React, { Component } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import About from './About'
-export default class Navbar extends Component {
-  render() {
+import Cart from './Cart'
+
+
+
+
+import ButtonGroup from "@material-ui/core/ButtonGroup";
+import Badge from "@material-ui/core/Badge";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import Button from "@material-ui/core/Button";
+import AddIcon from "@material-ui/icons/Add";
+import RemoveIcon from "@material-ui/icons/Remove";
+
+
+function Navbar  ()
+{
+ 
     return (
       <>
       <div className='container'>
@@ -21,25 +35,35 @@ export default class Navbar extends Component {
 </div>
         </div></div>
 
+        {/* ******************************************************************** */}
+
+
+
+
+
+       
+
+{/* ***************************************************************************** */}
 
         <div className='container'>
         <div className='row'>
           <div  className='col-md-12'>
+          <span className='d-flex'>
         <nav className='navbar navbar-expand-lg  fw-bold text-dark py-2 '>
 
        
-          <a href='' className="navbar-brand" style={{ marginLeft: '200px' }}>
+          <a href='' className="navbar-brand" >
 
 
             <img src='images/logo.png' height={'40px'} />
           </a>
 
-          <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        
-          <ul className='navbar-nav mr-auto navbar-collapse ' id="navbarSupportedContent"> 
+        <div class="collapse navbar-collapse mx-5" id="navbarNav">
+          <ul className='navbar-nav mr-auto  ' id="navbarSupportedContent"> 
             
          
               <li className='navbar-item active'><NavLink to='/' className='nav-link  fw-normal mx-2 fs-5 navcolor1' style={{color:'rgb(6, 71, 6)' }}>Home</NavLink>
@@ -128,8 +152,43 @@ export default class Navbar extends Component {
 
 
           </ul>
-        
+        </div>
+
+
+
+        {/* <button className='btn btn-outline-secondary cart_btn'>
+           <span className='d-flex pt-1 ' style={{color:'rgb(6, 71, 6)'}}>
+           <i class="fa-solid fa-bag-shopping fs-6 me-4 ms-2 "></i>
+           <h6 className='fs-6 me-2'>$31.40 / 3 items</h6>
+             
+           </span>
+        </button> */}
+
+
+       
+<div class="accordion mx-5" id="accordionExample" >
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <span className='d-flex pt-1 ' style={{color:'rgb(6, 71, 6)'}}>
+           <i class="fa-solid fa-bag-shopping fs-6 me-4 ms-2 "></i>
+           <h6 className='fs-6 me-2'>$31.40 / 3 items</h6>
+             
+           </span>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <Cart/>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
         </nav >
+       
+</span>
 
 
 
@@ -151,4 +210,5 @@ export default class Navbar extends Component {
       </>
     )
   }
-}
+
+export default Navbar

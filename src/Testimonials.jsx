@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
     return (
         <>
-            <div className='col-md-12 pt-5 pl-5'>
+            <div className='col-md-12  pt-5 pl-5'>
                 <div className='row'>
                     <card className='card  testimonial-card' >
                         <div className='card-body'>

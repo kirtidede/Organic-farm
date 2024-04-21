@@ -103,10 +103,24 @@ code {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   transition: all 1s;
 }
+.featuredcard a{
+  color: white;
+}
+.featuredcard a:hover{
+  color: black;
+}
 .featuredcard:hover{
   transform: scale(1.1);
 
 
+}
+.view_cart_btn{
+  text-decoration: none;
+  color: rgba(249, 221, 9, 0.885);
+ 
+}
+.view_cart_btn:hover{
+  color: black;
 }
 .background{
 
@@ -268,10 +282,23 @@ code {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .list h5{
- 
+  font-family: Georgia, 'Times New Roman', Times, serif;
     white-space: pre;
   
 }.list h5 a{
 text-decoration: none;
 color: #818181;
+}
+
+
+.cart_btn:hover{
+   
+}
+
+.card_for_add{
+  position:absolute;
+}
+a{
+  text-decoration: none;
+  
 }

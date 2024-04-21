@@ -3,6 +3,7 @@ import React, { Component, useState } from 'react';
 
 
 import TextRating from './TextRating';
+import { Link } from 'react-router-dom';
 
 const FeaturedProduct = (props) => {
  
@@ -33,7 +34,11 @@ const FeaturedProduct = (props) => {
 <h5 className='text-center' style={{ color: 'rgba(82, 40, 8, 0.724)'}}>{props.price}</h5>
 
 <span>
-<button className='btn btn-outline-light bg-warning'><i class="fa-solid fa-cart-shopping"></i></button>
+<button className='btn btn-outline-light bg-warning'><a href='./Shop'><i class="fa-solid fa-cart-shopping"></i></a>
+
+
+  
+  </button>
 <button  className='btn btn-outline-light bg-warning'><i class="fa-regular fa-eye"></i></button>
 <button  className='btn btn-outline-light bg-warning'><i class="fa-regular fa-heart"></i></button>
 

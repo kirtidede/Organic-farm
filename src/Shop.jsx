@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 import Sidenav from './Sidenav';
 import FeaturedProduct from './FeaturedProduct';
 import Footer from './Footer';
-
+import Search from './search';
+import Buy from './Buy'
 export default class Shop extends Component {
   render(
     featuredproduct = [
@@ -93,24 +94,23 @@ export default class Shop extends Component {
                     <div className='card'>
                       <div className=' list py-3' >
                         <div class="input-group flex-nowrap">
-                          {/* <span class="input-group-text" id="addon-wrapping"><i class='bi bi-search'></i></span> */}
-                          <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping" />
                         </div>
-
-                        <h5 className='py-1 px-3'><a href=''>Lemond    (96)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Tomato    (90)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Lettuse   (8)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Potato    (06)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Mushroom  (56)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Bananad   (76)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Apple     (86)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Bean      (25)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Carrot    (26)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Corn      (80)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Grapes    (90)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Cherry    (96)</a></h5>
-                        <h5 className='py-1 px-3'><a href=''>Brocolie  (96)</a></h5>
-
+                        <h5 className='heading text-center'>All Products</h5>
+                        <ul className='text-center ' style={{listStyle:'none'}}><li>
+                          <h5 className='py-1 px-3'><a href=''>Lemond    (96)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Tomato    (90)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Lettuse   (8)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Potato    (06)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Mushroom  (56)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Bananad   (76)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Apple     (86)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Bean      (25)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Carrot    (26)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Corn      (80)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Grapes    (90)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Cherry    (96)</a></h5></li>
+                        <li>  <h5 className='py-1 px-3'><a href=''>Brocolie  (96)</a></h5></li>
+                        </ul>
 
                       </div>
                     </div>
@@ -120,11 +120,13 @@ export default class Shop extends Component {
 
                   <div className='col-md-9 col-sm-9 col-lg-9 '>
 
+
+
                     <div className='row'>
                       <div className='col-md-12 col-sm-12 col-lg-12'>
                         <span d-flex>
                           <h5>
-                            Showing 1–12 of 126 results</h5>
+                            Showing 1-12 of 126 results</h5>
                           Sort by:
                           <select name="Average" id="" class="form-control">
                             <option>Popularity</option>
@@ -138,37 +140,9 @@ export default class Shop extends Component {
                     </div>
                     <div className='container '>
                       <div className='col-md-12 col-sm-12 col-lg-12' >
-                        <div className='row'>
-                          {
-
-                            featuredproduct.map((val, index, array) => {
-                              return (
-
-                                <>
 
 
-                                  <div className="col-md-6 col-sm-6  col-lg-4 mx-auto my-3 " key={index}>
-                                    <div className='row'>
-
-                                      <FeaturedProduct
-                                        id={val.id}
-                                        pname={val.pname}
-                                        image={val.image}
-                                        price={val.price}
-                                      />
-
-                                    </div>
-                                  </div>
-
-
-                                </>
-                              )
-
-                            })
-
-                          }
-
-                        </div>
+                        <Buy />
                       </div></div>
                   </div>
                 </div>
@@ -179,10 +153,60 @@ export default class Shop extends Component {
 
         </div>
 
+
+
+
+
+
+
+
+
+        {/* <Buy/> */}
+
+        <div className='container '>
+          <div className='col-md-12 col-sm-12 col-lg-12' >
+            <div className='row'>
+              {
+
+                featuredproduct.map((val, index, array) => {
+                  return (
+
+                    <>
+
+
+                      <div className="col-md-6 col-sm-12  col-lg-3 mx-5 my-3 " key={index}>
+                        <div className='row'>
+
+                          <FeaturedProduct
+                            id={val.id}
+                            pname={val.pname}
+                            image={val.image}
+                            price={val.price}
+                          />
+
+                        </div>
+                      </div>
+
+
+                    </>
+                  )
+
+                })
+
+              }
+
+            </div>
+
+
+          </div></div>
+
+
+
+
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-md-12 col-sm-12 col-lg-12'>
-              <Footer/></div>          </div>
+              <Footer /></div>          </div>
         </div>
 
       </>
