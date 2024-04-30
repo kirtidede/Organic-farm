@@ -2,8 +2,8 @@ import React, { Component, useState } from 'react';
 
 
 
-import { Carousel } from 'react-carousel-cards-npm';
-import Card from './Card';
+// import { Carousel } from 'react-carousel-cards-npm';
+// import Card from './Card';
 import FeaturedProduct from './FeaturedProduct';
 import MyCarousel from './MyCarousel';
 import { WhyChooseUs } from './WhyChooseUs';
@@ -71,12 +71,7 @@ export default class Home extends Component {
         imageSrc: 'images/category-4-400x400.jpg',
         number: '80 Products'
       },
-      // {
-      //   id: '6',
-      //   name: 'Bean',
-      //   imageSrc: 'images/category-6-400x400.jpg',
-      //   number: '61 Products'
-      // },
+   
 
     ],
     cards1 = [
@@ -223,7 +218,7 @@ export default class Home extends Component {
             <h1 className=' font-primary'>Healthy foods</h1>
 
             <h3 className='text-secondary fs-4 fw-normal'>Your journey to a healthier life starts here...</h3>
-            {/* <div className='bg1'>Home</div> */}
+         
 
 
             <span className=' mx-2 fs-5' ><button className='btn'> <a href='./Shop' style={{textDecoration:'none',color: 'rgba(82, 40, 8, 0.724)'}}>shop now <i class="fa-solid fa-arrow-right arrow-right mx-2"></i></a></button></span>
@@ -239,104 +234,7 @@ export default class Home extends Component {
     
 
 
-        {/* <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-
-            <div class="carousel-item active " data-bs-interval="1500">
-              <div className='container'>
-
-                <div className="col-md-12 mx-5">
-                  <div className='row'>
-                    {
-
-                      cards.map((val, index, array) => {
-                        return (
-
-                          <>
-
-
-                            <div className="col-md-3 col-sm-12 col-xs-12 col-lg-2 col-xl-2  my-3  mx-3 ">
-                              <div className='row'>
-
-
-
-                                <Card
-
-                                  id={val.id}
-                                  name={val.name}
-                                  imageSrc={val.imageSrc}
-                                  number={val.number}
-
-
-                                />
-                              </div>
-                            </div>
-
-
-                          </>
-                        )
-
-                      })
-
-                    }
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <div className='container'>
-
-                <div className="col-md-12 mx-5">
-                  <div className='row'>
-                    {
-
-                      cards1.map((val, index, array) => {
-                        return (
-
-                          <>
-
-
-                            <div className="col-md-3 col-sm-12 col-xs-12 col-lg-2 col-xl-2  my-3  mx-3">
-                              <div className='row'>
-
-
-                                <Card
-
-                                  id={val.id}
-                                  name={val.name}
-                                  imageSrc={val.imageSrc}
-                                  number={val.number}
-                                />
-                              </div>
-                            </div>
-
-
-                          </>
-                        )
-
-                      })
-
-                    }
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
-          <button class="carousel-control-prev bg-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" style={{ borderRadius: '50%', height: '50px', width: '50px', marginTop: '130px', marginLeft: '60px' }}>
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next bg-secondary me-4" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style={{ borderRadius: '50%', height: '50px', width: '50px', marginTop: '130px' }}>
-            <span class="carousel-control-next-icon" aria-hidden="true" ></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div> */}
+      
 
 <AllProducts/>
 
@@ -420,9 +318,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        {/* <div className='section section1 ' style={{ marginTop: '-800px' }}>
-        
-        </div> */}
+       
 
 
 

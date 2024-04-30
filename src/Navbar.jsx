@@ -106,48 +106,7 @@ function Navbar  ()
 
 
             
-            {/* <div class="dropdown">
-              <li className='navbar-item'><NavLink to='/blog' className='nav-link  mx-2 fw-normal fs-5 navcolor' data-bs-toggle="dropdown">Blog</NavLink>
-                <ul class=" dropdown-menu " >
-                  <li><a href="#" class="dropdown-item py-2 navcolor " >Listing</a></li>
-                  <li><a href="#" class="dropdown-item py-2 navcolor" >single</a></li>
-                  <li><a href="#" class="dropdown-item py-2 navcolor" >Post Types</a></li>
-                  
-
-                  <li>
-      <a class="dropdown-item" href="#">
-        Submenu &raquo;
-      </a>
-      <ul class="dropdown-menu dropdown-submenu">
-        <li>
-          <a class="dropdown-item" href="#">Submenu item 1</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Submenu item 2</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-          <ul class="dropdown-menu dropdown-submenu">
-            <li>
-              <a class="dropdown-item" href="#">Multi level 1</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Multi level 2</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Submenu item 4</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Submenu item 5</a>
-        </li>
-      </ul>
-    </li>
-
-                </ul>
-              </li>
-            </div> */}
+           
 
 
 
@@ -156,13 +115,7 @@ function Navbar  ()
 
 
 
-        {/* <button className='btn btn-outline-secondary cart_btn'>
-           <span className='d-flex pt-1 ' style={{color:'rgb(6, 71, 6)'}}>
-           <i class="fa-solid fa-bag-shopping fs-6 me-4 ms-2 "></i>
-           <h6 className='fs-6 me-2'>$31.40 / 3 items</h6>
-             
-           </span>
-        </button> */}
+       
 
 
        
@@ -201,11 +154,7 @@ function Navbar  ()
 
 
         
-{/* 8888888888888888888888888888888888888 */}
 
-
-
-{/* 88888888888888888888888888888888888888888888 */}
 
       </>
     )

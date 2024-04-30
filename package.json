@@ -18,11 +18,10 @@
     "bootstrap-icons": "^1.11.3",
     "fontawesome": "^5.6.3",
     "mdbreact": "^4.6.1",
-    "react": "^17.0.2",
-    "react-carousel-cards-npm": "^1.1.5",
+    "react": "^18.3.1",
     "react-carousel-rtl": "^3.0.4",
     "react-collapsed": "^4.1.2",
-    "react-dom": "^17.0.2",
+    "react-dom": "^18.3.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.22.3",
     "react-scripts": "^5.0.1",
@@ -58,5 +57,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "react-carousel-cards-npm": "^1.1.5"
+  }
 }

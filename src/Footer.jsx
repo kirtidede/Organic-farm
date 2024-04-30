@@ -4,7 +4,7 @@ const Footer = () => {
   return (
    <>
    
-   <div className='containe-fluid p-0'>
+   <div className='containe-fluid '>
    <div className='footer_home py-5 'style={{width:'100%', backgroundcolor: 'rgb(188,184,138)'}}>
       <div className='col-md-12 col-lg-12 col-sm-12'>
         <div className='row'>
