@@ -1,7 +1,6 @@
 import React, { Component, useState } from 'react';
 
 
-
 // import { Carousel } from 'react-carousel-cards-npm';
 // import Card from './Card';
 import FeaturedProduct from './FeaturedProduct';
